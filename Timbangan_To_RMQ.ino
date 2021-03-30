@@ -156,7 +156,7 @@ void setup()
   long zero_factor = scale.read_average(); //Get a baseline reading
   Serial.print("Zero factor: "); //This can be used to remove the need to tare the scale. Useful in permanent scale projects.
   Serial.println(zero_factor);
-  //scale.set_offset(-225049)
+  //scale.set_offset(-225049);
   scale.tare(); //Reset the scale to 0
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
